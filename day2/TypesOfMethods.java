@@ -6,6 +6,7 @@ public class TypesOfMethods {
 	}
 	static void m2() {
 		System.out.println("Static method ");
+		
 	}
 
 	public static void main(String[] args) {
