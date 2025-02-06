@@ -13,11 +13,6 @@ public class TypesOfMethods {
 		TypesOfMethods obj = new TypesOfMethods();
 		obj.m1();
 		TypesOfMethods.m2();
-		
-		// TODO Auto-generated method stub
-		
-		
-
-	}
+		}
 
 }
