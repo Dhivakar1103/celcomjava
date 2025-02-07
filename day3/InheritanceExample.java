@@ -17,10 +17,6 @@ public class InheritanceExample {
 		 Car four = new  Car();
 		 four.NoOfEngine();
 		 four.NoOfTyres();
-		 
-		 
-		
-
 	}
 
 }
