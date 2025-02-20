@@ -52,7 +52,7 @@ class Account {
 
 class Bank {
     private List<Account> accounts = new ArrayList<>();
-    private Scanner sc; // Single Scanner instance
+    private Scanner sc;
 
     public Bank(Scanner sc) {
         this.sc = sc;
