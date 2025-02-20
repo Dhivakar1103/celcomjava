@@ -65,7 +65,7 @@ class Bank {
         String custName = sc.nextLine();
         System.out.print("Enter Initial Balance: ");
         double balance = sc.nextDouble();
-        sc.nextLine(); // Consume newline
+        sc.nextLine(); 
 
         accounts.add(new Account(accNumber, custName, balance));
         System.out.println("Account created successfully!");
@@ -99,7 +99,7 @@ class Bank {
             if (account.getAccountNumber().equals(accNumber)) {
                 System.out.print("Enter Deposit Amount: ");
                 double amount = sc.nextDouble();
-                sc.nextLine(); // Consume newline
+                sc.nextLine(); 
                 account.deposit(amount);
                 return;
             }
@@ -115,7 +115,7 @@ class Bank {
             if (account.getAccountNumber().equals(accNumber)) {
                 System.out.print("Enter Withdrawal Amount: ");
                 double amount = sc.nextDouble();
-                sc.nextLine(); // Consume newline
+                sc.nextLine();
                 account.withdraw(amount);
                 return;
             }
@@ -146,7 +146,7 @@ public class BankApplication {
             System.out.println("\n1. Add Account\n2. Remove Account\n3. Deposit Money\n4. Withdraw Money\n5. Display Account Details\n6. Exit\nEnter your choice: ");
 
             int choice = sc.nextInt();
-            sc.nextLine(); // Consume newline
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1:
